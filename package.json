@@ -1,0 +1,32 @@
+{
+  "name": "consoleit",
+  "version": "0.0.1",
+  "description": "Utility to append console messages to the DOM. Useful when using RequireBin, JSFiddle, or the like.",
+  "homepage": "https://github.com/YuzuJS/consoleit",
+  "main": "./lib/consoleit.js",
+  "author": {
+    "name": "YuzuJS"
+  },
+  "keywords": [
+    "console",
+    "log",
+    "requirebin",
+    "jsfiddle"
+  ],
+  "contributors": [
+    {
+      "name": "Donavon West",
+      "email": "email@donavon.com",
+      "url": "http://donavon.com"
+    }
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/YuzuJS/consoleit/raw/master/LICENSE"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuzuJS/consoleit.git"
+  },
+  "readmeFilename": "README.md"
+}
