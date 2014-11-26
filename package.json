@@ -1,6 +1,6 @@
 {
   "name": "consoleit",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Utility to append console messages to the DOM. Useful when using RequireBin, JSFiddle, or the like.",
   "homepage": "https://github.com/YuzuJS/consoleit",
   "main": "./lib/consoleit.js",
