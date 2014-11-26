@@ -15,7 +15,38 @@ To use this in JSFiddle, you must also add the following script tag to your HTML
 ```html
 <script src="http://wzrd.in/bundle/consoleit"></script>
 ```
-The use the JavaScript code as shown above.
+Then use the JavaScript code as shown above.
+
+###String Substitution
+
+You can also use the following string substitution characters in your output.
+
+| Substitution string | Description                     |
+| ------------------- | ------------------------------- |
+| %d or %i            | Outputs an integer.             |
+| %s                  | Outputs a string.               |
+| %f                  | Outputs a floating-point value. |
+
+See [MDN](https://developer.mozilla.org/en-US/docs/Web/API/console#Using_string_substitutions) for further details.
+
+```JavaScript
+console.log("Only %d days until %s!", 30, "Christmas");
+```
+
+###JavaScript Objects
+
+JavaScript obects will be converted to JSON.
+
+For example:
+```JavaScript
+var obj = {x:1, y:2};
+console.log(obj);
+```
+
+Would display:
+```
+Object {"x":1,"y":2}
+```
 
 ###Options
 
