@@ -28,5 +28,8 @@
     "type": "git",
     "url": "git://github.com/YuzuJS/consoleit.git"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "insert-css": "^0.2.0"
+  }
 }
