@@ -17,12 +17,26 @@ To use this in JSFiddle, you must also add the following script tag to your HTML
 ```
 Then use the JavaScript code as shown above.
 
+###Methods
+ConsoleIt supports the following methods:
+
+| Method          | Description                                |
+| --------------- | :----------------------------------------- |
+| console.log()   | For general output of logging information. |
+| console.info()  | Informative logging information.           |
+| console.warn()  | Outputs a warning message.                 |
+| console.error() | Outputs an error message.                  |
+
+Colored icons are placed next to all but `console.log()` as follows:
+
+![alt text](https://github.com/YuzuJS/consoleit/raw/master/console-output.png "Example Console Output")
+
 ###String Substitution
 
 You can also use the following string substitution characters in your output.
 
 | Substitution string | Description                     |
-| ------------------- | ------------------------------- |
+| ------------------- | :------------------------------ |
 | %d or %i            | Outputs an integer.             |
 | %s                  | Outputs a string.               |
 | %f                  | Outputs a floating-point value. |
